@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+    background-position: -100px;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+nav{
+    background-color: blue;
+    padding: 20px 20px;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 5cm;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 12px;
+}
+
+
+#main-menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-menu li a:hover{
+    text-decoration: underline;
+}
+
+.login {
+    float: none;
+  margin-left: 50%;
+  color: white;
+}
